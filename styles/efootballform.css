@@ -1,0 +1,102 @@
+body {
+  background-color: #e8e8ec;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+h1{
+  text-align: left;
+  font-family: Comic Sans MS;
+}
+
+h2, p {
+  text-align: center;
+  padding: 0 20px;
+  font-family: Tahoma;
+}
+
+p{
+  color: #747474;
+}
+
+div {
+  background-color: #b40707; 
+  padding: 30px;
+  color: #e8e8ec;
+}
+
+form {
+  width: 85%;
+  margin: 0 auto;
+  background-color: 
+  #ffffff;
+  border: 1px solid #828285; 
+  border-radius: 6px;
+  padding: 15px 15px;
+  font-family: Tahoma;
+  font-size: 16px;
+  padding-bottom: 30px;
+}
+
+label {
+  margin: 15px 10px;
+  display: block;
+  color: #747474;
+}
+
+input,textarea,select {
+  display: block;
+  width: 95%;
+  font-size: 13px;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 4px;
+  color: #353535;
+  background-color: #e8e8ec;
+  border: 0 solid transparent;
+}
+
+input:focus, select:focus, textarea:focus {
+  border: none;
+  background-color: #f3b0b0;
+  outline: none;
+  box-shadow: 0 0 8px #fad2d2;
+}
+
+
+option {
+  background-color: #ffffff;
+  font-size: 14px;
+  font-family: Tahoma;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.pick, option {
+  color: #353535;
+}
+
+.inline {
+  display: inline;
+  width: unset;
+  margin: 5px 5px;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  width: 50%;
+  margin: 30px auto;
+  background-color: #b40707;
+  color: #ffffff;
+  font-family: Comic Sans MS;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+
